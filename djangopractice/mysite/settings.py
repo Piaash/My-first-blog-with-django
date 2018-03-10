@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'djangodb',
-        'HOST': '127.0.0.1',
+        'NAME': 'Piaash$default',
+        'HOST': 'Piaash.mysql.pythonanywhere-services.com',
         'PORT': '3306',
-        'USER': 'root',
+        'USER': 'Piaash',
         'PASSWORD': '',
     }
 }
